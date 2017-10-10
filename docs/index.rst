@@ -15,7 +15,7 @@ Contents:
    deploy
    docker_ec2
    tests
-
+   navodila
 
 
 Indices and tables
