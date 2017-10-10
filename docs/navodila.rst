@@ -1,4 +1,4 @@
-Navodila nova
+Navodila zadnja
 ======================
 
 COOKIECUTTER
@@ -12,10 +12,11 @@ git clone git@github.com:audreyr/cookiecutter-pypackage.git
 PYTHON 3.6.3
 ^^^^^^^^^^^^
 ::
-iz python spletne strani download python 3.6.3, extrahiraj in pojdi v direktorij Python-3.6.3
-./configure
-sudo make
-sudo make install
+
+	iz python spletne strani download python 3.6.3, extrahiraj in pojdi v direktorij Python-3.6.3
+	./configure
+	sudo make
+	sudo make install
 
 VIRTUALNO OKOLJE
 
