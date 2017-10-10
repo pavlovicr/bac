@@ -1,4 +1,4 @@
-Navodila
+Navodila nova
 ======================
 
 COOKIECUTTER
