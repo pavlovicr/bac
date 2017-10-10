@@ -10,7 +10,8 @@ pip install --upgrade cookiecutter
 git clone git@github.com:audreyr/cookiecutter-pypackage.git
 
 PYTHON 3.6.3
-
+^^^^^^^^^^^^
+::
 iz python spletne strani download python 3.6.3, extrahiraj in pojdi v direktorij Python-3.6.3
 ./configure
 sudo make
