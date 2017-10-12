@@ -79,7 +79,7 @@ Hello world
     + in še enkrat "+"
 
 
-
+.. image:: slika.jpg
 
 
 
