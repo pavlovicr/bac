@@ -3,8 +3,7 @@ Navodila zadnja
 
 COOKIECUTTER
 ^^^^^^^^^^^^
-	::
-	sudo apt-get update
+::	sudo apt-get update
 	sudo apt-get install cookiecutter
 	pip install --upgrade cookiecutter
 	git clone git@github.com:audreyr/cookiecutter-pypackage.git
