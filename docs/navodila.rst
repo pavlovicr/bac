@@ -70,10 +70,11 @@ Hello world
 
 
 
-(1) numbers again
+(1) zamiki
 
-* and again "*"
-- zamik "-"
+* zamik "*"
+  - zamik še enkrat "-"
+    + in še enkrat "+"
 
 
 
