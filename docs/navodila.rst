@@ -62,7 +62,19 @@ v index.rst vpišemo ime fajla "navodila"
 	pip install sphinx sphinx-autobuild
 	make html
 
+text = """
+.. _top:
 
+Hello world
+===========
+
+This is an **emphased text**, some ``interpreted text``.
+And this is a reference to top_::
+
+    $ print("Hello world")
+
+"""
+document = RstDocument(text=text)
 
 
 
