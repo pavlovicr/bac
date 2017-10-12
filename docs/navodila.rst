@@ -40,9 +40,9 @@ v requirements/local.txt so naloženi programi za development
 	source LOCAL/bin/activate
 	pip install -r requirements/local.txt
 
-POSTGRES
+POSTGRES_::
 ^^^^^^^^
-::
+
 v serverju postgres ustvarimo bazo
 	sudo su -l postgres
 	createdb bac 
