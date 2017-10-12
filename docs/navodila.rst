@@ -3,7 +3,7 @@ Navodila zadnja
 
 COOKIECUTTER
 ^^^^^^^^^^^^
-::
+	::
 	sudo apt-get update
 	sudo apt-get install cookiecutter
 	pip install --upgrade cookiecutter
