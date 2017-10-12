@@ -214,7 +214,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    ('index', 'bac', 'BAC Documentation',
+    ('index', 'bac', 'BAC Dokumentacija',
      ["""Rados Pavlovic"""], 1)
 ]
 
