@@ -67,6 +67,10 @@ text = """
 
 Hello world
 ===========
+Hello world
+^^^^^^^^^^^
+Hello word
+----------
 
 
 
@@ -76,10 +80,7 @@ Hello world
   
   - zamik še enkrat "-"
 
-    + in še enkrat "+"
-
-
-.. image:: slika.jpg
+    + in še enkrat
 
 
 
