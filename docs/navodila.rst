@@ -73,7 +73,9 @@ Hello world
 (1) zamiki
 
 * zamik "*"
+  
   - zamik še enkrat "-"
+
     + in še enkrat "+"
 
 
