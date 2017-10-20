@@ -1,5 +1,5 @@
 Za uvod linux komande
-======================
+^^^^^^^^^^^^^^^^^^^^^
 ::
 
     touch mojfile
@@ -12,7 +12,7 @@ Za uvod linux komande
 
 
 Django instalacija koplet
-=========================
+^^^^^^^^^^^^^^^^^^^^^^^^^
 
 
 
