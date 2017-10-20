@@ -1,5 +1,20 @@
-Navodila zadnja
+Za uvod linux komande
 ======================
+::
+
+    touch mojfile
+    echo “ratata” > mojfile
+    cat ”mojile” > mojfile1 …...vsebina iz moj file se skopira v mojfile1
+    cat mojfile ….ogled vsebine
+
+    django-admin startproject .  …..s piko ne ustvari nepomembnega direktorija
+
+
+
+Django instalacija koplet
+=========================
+
+
 
 COOKIECUTTER
 ^^^^^^^^^^^^
