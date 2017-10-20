@@ -12,7 +12,7 @@ Za uvod linux komande
 
 
 Django instalacija koplet
-=========================
+^^^^^^^^^^^^^^^^^^^^^^^^^
 
 
 
