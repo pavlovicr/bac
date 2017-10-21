@@ -7,6 +7,7 @@ Za uvod linux komande
 	cat ”mojile” > mojfile1 
 	cat mojfile ….ogled vsebine
 	django-admin startproject . # s piko ne ustvari nepomembnega direktorija
+	zakaj sedaj dela
 
 
 
