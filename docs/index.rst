@@ -9,10 +9,10 @@ Dobrodošli v BAC dokumentacijo!
 Contents:
 
 .. toctree::
-   :maxdepth: 12
+   :maxdepth: 5
 
-   udpp
-   django_instalacija
+   udpp_izvlecek 
+   bac_instalacija
    install
    deploy
    docker_ec2
