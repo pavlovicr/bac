@@ -12,7 +12,7 @@ Contents:
    :maxdepth: 12
 
    udpp
-   Django_instalacija
+   django_instalacija
    install
    deploy
    docker_ec2
