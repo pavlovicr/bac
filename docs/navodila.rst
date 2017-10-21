@@ -49,16 +49,18 @@ LOCAL je ime novega virtualnega okolja, ki ga bomo rabili za development
 
 OKOLJE ZA DEVELOPMENT(LOCAL)
 ^^^^^^^^^^^^^^^^^^^^^
-::
+
 mogoče je treba s sudo pip3
 v requirements/local.txt so naloženi programi za development
+::
 	source LOCAL/bin/activate
 	pip install -r requirements/local.txt
 
-POSTGRES_::
+POSTGRES
 ^^^^^^^^
 
 v serverju postgres ustvarimo bazo
+::
 	sudo su -l postgres
 	createdb bac 
 
