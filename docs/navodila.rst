@@ -8,6 +8,7 @@ Za uvod linux komande
 	cat mojfile ….ogled vsebine
 	django-admin startproject . # s piko ne ustvari nepomembnega direktorija
 	zakaj sedaj dela
+	fetch ?
 
 
 
