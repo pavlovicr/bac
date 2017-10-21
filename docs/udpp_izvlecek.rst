@@ -25,19 +25,6 @@ ustvari nov fajl in kopiraj vsebino iz fajla vaja1.txt
 
 
 
-Django instalacija koplet
-=========================
-
-
-
-COOKIECUTTER
-^^^^^^^^^^^^
-::
- 
-    sudo apt-get update
-    sudo apt-get install cookiecutter
-    pip install --upgrade cookiecutter
-    git clone git@github.com:audreyr/cookiecutter-pypackage.git
 
 
 
@@ -149,6 +136,20 @@ DJANGO
 ::
 
 	django-admin startproject . # s piko ne ustvari nepomembnega direktorija
+
+
+COOKIECUTTER
+^^^^^^^^^^^^
+::
+ 
+    sudo apt-get update
+    sudo apt-get install cookiecutter
+    pip install --upgrade cookiecutter
+    git clone git@github.com:audreyr/cookiecutter-pypackage.git
+
+
+
+
 
 READTHEDOCS
 ^^^^^^^^^^^
