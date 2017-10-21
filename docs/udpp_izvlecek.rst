@@ -8,8 +8,7 @@ ustvari nov fajl
 ::
 	touch vaja1.txt
 daj tekst "miha kovacev" v vaja1.txt in zbriši predhodni tekst
-::
-	echo “miha kovacev” > vaja1.txt
+::	echo “miha kovacev” > vaja1.txt
 dodaj nov tekst k predhodnemu
 ::
 	echo "županova micka2 >> vaja1.txt
