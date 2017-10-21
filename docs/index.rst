@@ -9,7 +9,7 @@ Dobrodošli v BAC dokumentacijo!
 Contents:
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 12
 
    navodila
    install
