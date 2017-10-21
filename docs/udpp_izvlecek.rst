@@ -3,17 +3,21 @@ Osnovni ukazi
 
 Linux
 ^^^^^^^^^^^^^^^^^^^^^
-::
 
-naredi nov fajl
+ustvari nov fajl
+::
 	touch vaja1.txt
-da nov tekst "miha kovacev" v vaja1.txt in zbriše predhodni tekst
+daj tekst "miha kovacev" v vaja1.txt in zbriši predhodni tekst
+::
 	echo “miha kovacev” > vaja1.txt
-doda nov tekst k predhodnemu
+dodaj nov tekst k predhodnemu
+::
 	echo "županova micka2 >> vaja1.txt
-ogled vsebine fajla vaja1.txt
+poglej vsebino fajla vaja1.txt
+::
 	cat vaja1.txt
 ustvari nov fajl in kopiraj vsebino iz fajla vaja1.txt
+::
 	cat ”vaja1.txt” > vaja2.txt 
 
 
