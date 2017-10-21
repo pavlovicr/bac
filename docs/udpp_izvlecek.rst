@@ -1,11 +1,27 @@
-Za uvod linux komande
+Osnovni ukazi
+=============
+
+Linux
 ^^^^^^^^^^^^^^^^^^^^^
 ::
 
-	touch mojfile
-	echo “ratata” > mojfile
-	cat ”mojile” > mojfile1 
-	cat mojfile ….ogled vsebine
+naredi nov fajl
+	touch vaja1.txt
+da nov tekst "miha kovacev" v vaja1.txt in zbriše predhodni tekst
+	echo “miha kovacev” > vaja1.txt
+doda nov tekst k predhodnemu
+	echo "županova micka2 >> vaja1.txt
+ogled vsebine fajla vaja1.txt
+	cat vaja1.txt
+ustvari nov fajl in kopiraj vsebino iz fajla vaja1.txt
+	cat ”vaja1.txt” > vaja2.txt 
+
+
+
+
+
+
+
 	django-admin startproject . # s piko ne ustvari nepomembnega direktorija
 	
 
