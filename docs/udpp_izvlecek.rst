@@ -56,9 +56,15 @@ iz download direktorija Python-3.6.3 izvršimo ukaze
 delo z moduli
 -------------
 
-informacije o modulu datetime
+informacije o modulu datetime dirktno iz linux terminala
 ::
 	pydoc datetime
+
+kodo, ki je vpisana pod tem izrazom zažene samo takrat, ko poženemo izvirni fajl
+in ne z >>> import mojmodul.
+Koristno pri delu s testi, ki so sestavni del kode na istem fajlu
+::
+	if __name__ == '__main__':
 
 instalacija lastnih modulov v site-packages, ki se nahaja v 
 home/pavlovicr/virtualno_test/lib/python3.5/site-packages
@@ -68,36 +74,48 @@ home/pavlovicr/virtualno_test/lib/python3.5/site-packages
 	>>>import vaja 
 	>>>import primer
 
+izpis imena modula , ki je bil importan 
+primer za ime modula 'time'
+::
+	>>> import time
+	>>> time.__name__	 
+delo s časom 
+::
+	>>> import datetime
+primer tekoče ure
+	>>>a=datetime.datetime.now().hour
+lahko tudi
+	>>>import datetime
+	>>>from datetime import datetime
+	>>>a=datetime.now()
+	>>>a.hour
+	>>>a.minute
+	>>>a.day
+primer 12 sekund do iklopa
+::
+	>>>import time	
+	>>>time.sleep(12)
+primer današnji dan
+::
+	>>>time.localtime().tm_mday
+primer danes
+::
+	>>>time.asctime()
+
+razno
+-----
 seznam instaliranih programov
 ::
 	pip freeze
 
-python primer.py -v ....se izpie izvajanje testa, ko je dodano testiranje kode
+testiranje
+izpis izvajanja testa kode, ko je test sestavni del kode
+::
+	python vaja.py -v
 
 
-DELO Z DATUMI
-
-import datetime
->>>a=datetime.datetime.now().hour  ......da tekoco uro
-lahko tudi
->>>import datetime
->>>from datetime import datetime
->>>a=datetime.now()
->>>a.hour
->>>a.minute
->>>a.day
-
->>>import time
->>>time.sleep(12) ....12 sekund do izklopa
->>>time.localtime().tm_mday.........da dananji dan
->>>time.asctime() .....danes
-
->>>time.__name__ .....izpie ime modula v kolikor je bil naloen z import
-if __name__ == '__main__': .....zazene kodo pod __name__ == '__main__' samo ce zazenemo izvirni fajl in ne z import file
-
-
-
-
+VIRTUALNO OKOLJE
+----------------
 VIRTUALNO OKOLJE
 ^^^^^^^^^^^^^^^^
 
