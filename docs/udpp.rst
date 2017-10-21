@@ -7,13 +7,10 @@ Za uvod linux komande
 	cat ”mojile” > mojfile1 
 	cat mojfile ….ogled vsebine
 	django-admin startproject . # s piko ne ustvari nepomembnega direktorija
-	zakaj sedaj dela
-	fetch ?
-
-
+	
 
 Django instalacija koplet
-^^^^^^^^^^^^^^^^^^^^^^^^^
+=========================
 
 
 
@@ -79,6 +76,7 @@ za lepo html obliko navodil ali tudi modelsov in ostalega
 v index.rst vpišemo ime fajla "navodila"
 	pip install sphinx sphinx-autobuild
 	make html
+
 
 text = """
 .. _top:

@@ -11,7 +11,8 @@ Contents:
 .. toctree::
    :maxdepth: 12
 
-   navodila
+   udpp
+   Django_instalacija
    install
    deploy
    docker_ec2
