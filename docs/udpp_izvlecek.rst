@@ -4,12 +4,16 @@ Osnovni ukazi
 Linux
 ^^^^^^^^^^^^^^^^^^^^^
 
+Ustvarjanje fajlov in vsebin
+----------------------------
+
 ustvari nov fajl
 ::
 	touch vaja1.txt
-daj tekst "miha kovacev" v vaja1.txt in zbriši predhodni tekst
-::	echo “miha kovacev” > vaja1.txt
-dodaj nov tekst k predhodnemu
+insert tekst "miha kovacev" v vaja1.txt in zbriši predhodni tekst
+::
+	echo “miha kovacev” > vaja1.txt
+insert nov tekst k predhodnemu
 ::
 	echo "županova micka2 >> vaja1.txt
 poglej vsebino fajla vaja1.txt
@@ -20,13 +24,6 @@ ustvari nov fajl in kopiraj vsebino iz fajla vaja1.txt
 	cat ”vaja1.txt” > vaja2.txt 
 
 
-
-
-
-
-
-	django-admin startproject . # s piko ne ustvari nepomembnega direktorija
-	
 
 Django instalacija koplet
 =========================
@@ -42,16 +39,64 @@ COOKIECUTTER
     pip install --upgrade cookiecutter
     git clone git@github.com:audreyr/cookiecutter-pypackage.git
 
-PYTHON 3.6.3
-^^^^^^^^^^^^
 
-pojdi na https://www.python.org/downloads/python3.6.3
-extrahiraj in pojdi v direktorij Python-3.6.3
+
+PYTHON
+^^^^^^
+instalacija Pythona
+-------------------
+
+download iz https://www.python.org/downloads/python3.6.3
+iz download direktorija Python-3.6.3 izvršimo ukaze
 ::
-
     ./configure
     sudo make
     sudo make install
+
+delo z moduli
+-------------
+
+informacije o modulu datetime
+::
+	pydoc datetime
+
+instalacija lastnih modulov v site-packages, ki se nahaja v 
+home/pavlovicr/virtualno_test/lib/python3.5/site-packages
+::
+	>>>import sys
+	>>>sys.path.append('~/vaja')
+	>>>import vaja 
+	>>>import primer
+
+seznam instaliranih programov
+::
+	pip freeze
+
+python primer.py -v ....se izpie izvajanje testa, ko je dodano testiranje kode
+
+
+DELO Z DATUMI
+
+import datetime
+>>>a=datetime.datetime.now().hour  ......da tekoco uro
+lahko tudi
+>>>import datetime
+>>>from datetime import datetime
+>>>a=datetime.now()
+>>>a.hour
+>>>a.minute
+>>>a.day
+
+>>>import time
+>>>time.sleep(12) ....12 sekund do izklopa
+>>>time.localtime().tm_mday.........da dananji dan
+>>>time.asctime() .....danes
+
+>>>time.__name__ .....izpie ime modula v kolikor je bil naloen z import
+if __name__ == '__main__': .....zazene kodo pod __name__ == '__main__' samo ce zazenemo izvirni fajl in ne z import file
+
+
+
 
 VIRTUALNO OKOLJE
 ^^^^^^^^^^^^^^^^
@@ -85,8 +130,7 @@ DJANGO
 ^^^^^^
 ::
 
-    python manage.py runserver
-    python manage.py migrate
+	django-admin startproject . # s piko ne ustvari nepomembnega direktorija
 
 READTHEDOCS
 ^^^^^^^^^^^
