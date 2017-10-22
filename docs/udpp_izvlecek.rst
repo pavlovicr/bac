@@ -78,7 +78,7 @@ lahko tudi
 	>>>a.hour
 	>>>a.minute
 	>>>a.day
-primer 12 sekund do iklopa
+primer 12 sekund do izklopa
 ::
 	>>>import time	
 	>>>time.sleep(12)
