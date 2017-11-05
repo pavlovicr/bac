@@ -12,6 +12,11 @@ Mislim, da zaradi poti do pythona
     pip install --upgrade cookiecutter
     cookiecutter https://github.com/pydanny/cookiecutter-django 
 
+Lahko pa cloniraš projekt iz githuba in nadaljuješ naprej po istem postopku.
+::
+
+	git clone https://github.com/pavlovicr/bac  
+
 VIRTUALNO OKOLJE in OKOLJE ZA DEVELOPMENT
 ^^^^^^^^^^^^^^^^
 V virtualnemu okolju, ki smo ga poimenovali local in v direktoriju bac inštaliramo okolje za development z vsemi potrebnimi programi. tudi za postgres.
