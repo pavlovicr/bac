@@ -1,56 +1,25 @@
 Django instalacija koplet
 =========================
 
-
-
-COOKIECUTTER
-^^^^^^^^^^^^
+COOKIECUTTER S PREDNASTAVLJENIM DJANGOM
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+mogoče, boš moral zagnati v virtualnemu okolju.
+Mislim, da zaradi poti do pythona
 ::
  
     sudo apt-get update
     sudo apt-get install cookiecutter
     pip install --upgrade cookiecutter
-    git clone git@github.com:audreyr/cookiecutter-pypackage.git
-	cookiecutter cookiecutter-pypackage 
+    cookiecutter https://github.com/pydanny/cookiecutter-django 
 
-lahko pa kar direktno 
-::
-
-	cookiecutter git@github.com:audreyr/cookiecutter-pypackage.git
-
-
-PYTHON 3.6.3
-^^^^^^^^^^^^
-v Ubuntuju je že instaliran. Ne ravno zadnja različic.
-sicer pa pojdi na https://www.python.org/downloads/python3.6.3
-extrahiraj in v direktoriju Python-3.6.3
-::
-
-    ./configure
-    sudo make
-    sudo make install
-
-VIRTUALNO OKOLJE
+VIRTUALNO OKOLJE in OKOLJE ZA DEVELOPMENT
 ^^^^^^^^^^^^^^^^
-
-sudo pip3 install https://github.com/pypa/virtualenv/tarball/master je opcija z zadnjo verzijo
-LOCAL je ime novega virtualnega okolja, ki ga bomo rabili za development
-::
-
-    sudo pip3 install virtualenv 
-    sudo pip3 install https://github.com/pypa/virtualenv/tarball/master    
-    virtualenv local(moje virtualno okolje) 
-
-OKOLJE ZA DEVELOPMENT(local)
-^^^^^^^^^^^^^^^^^^^^^
-
-mogoče je treba s sudo pip3
-v requirements/local.txt so naloženi programi za development
-???? preberi si kako spremenimo requirements itd 
+V virtualnemu okolju, ki smo ga poimenovali local in v direktoriju bac inštaliramo okolje za development z vsemi potrebnimi programi. tudi za postgres.
 
 ::
 	source local/bin/activate
-	pip install -r requirements/local.txt
+	cd bac
+	pip install -r requirements/local.txt 
 
 POSTGRES
 ^^^^^^^^
@@ -66,6 +35,7 @@ DJANGO
 
     python manage.py runserver
     python manage.py migrate
+
 
 READTHEDOCS
 ^^^^^^^^^^^
