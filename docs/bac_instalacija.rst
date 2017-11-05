@@ -15,8 +15,8 @@ Mislim, da zaradi poti do pythona
 VIRTUALNO OKOLJE in OKOLJE ZA DEVELOPMENT
 ^^^^^^^^^^^^^^^^
 V virtualnemu okolju, ki smo ga poimenovali local in v direktoriju bac inštaliramo okolje za development z vsemi potrebnimi programi. tudi za postgres.
-
 ::
+
 	source local/bin/activate
 	cd bac
 	pip install -r requirements/local.txt 
