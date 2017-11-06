@@ -3,16 +3,16 @@ Django instalacija koplet
 
 COOKIECUTTER S PREDNASTAVLJENIM DJANGOM
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-mogoče, boš moral zagnati v virtualnemu okolju.
-Mislim, da zaradi poti do pythona
+Naložimo cookiecutter, odpremo virtualno okolje in inštaliramo django
 ::
  
     sudo apt-get update
     sudo apt-get install cookiecutter
+    source/local/bin/activate
     pip install --upgrade cookiecutter
     cookiecutter https://github.com/pydanny/cookiecutter-django 
 
-Lahko pa cloniraš projekt iz githuba in nadaljuješ naprej po istem postopku.
+Lahko pa kloniraš projekt iz githuba in nadaljuješ naprej po istem postopku.
 ::
 
 	git clone https://github.com/pavlovicr/bac  
@@ -22,7 +22,6 @@ VIRTUALNO OKOLJE in OKOLJE ZA DEVELOPMENT
 V virtualnemu okolju, ki smo ga poimenovali local in v direktoriju bac inštaliramo okolje za development z vsemi potrebnimi programi. tudi za postgres.
 ::
 
-	source local/bin/activate
 	cd bac
 	pip install -r requirements/local.txt 
 
